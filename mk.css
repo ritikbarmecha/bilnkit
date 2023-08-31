@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.delivery>h5{
+    color: rgb(0,0,0);
+      font-size: 18px;
+      margin-bottom: 6px;
+      font-weight: 800;
+}
+.delivery>p{
+   margin: 0px;
+   font-size: 13px;
+  
+   font-weight: 400;
+}
+.verline1{
+    height: 55px;
+    border-left: 1px solid black;
+ 
+}
+
+.searchbox{
+  
+   display: flex;
+   flex-direction: row;
+    padding: 0px 16px;
+   
+    border: 10px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+
+}
+.searchbox>#searchi{
+   
+   border: none; 
+   background-color: transparent;
+   width: 40vw;
+   height: 45px;
+
+}
+::placeholder{
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
